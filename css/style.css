@@ -1,0 +1,44 @@
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: "Montserrat", "Arial", sans-serif;
+	background: #EFE6E4;
+}
+
+.intro {
+	color: #533738;
+}
+
+.intro-header {
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 62px;
+}
+
+.intro-description {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.button {
+	background: #CC8B86;
+	color: #533738;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+}
