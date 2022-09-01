@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>SCANDI</title>
 	<link rel="stylesheet" href="css/develop-outlines.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -11,19 +11,19 @@
 <body>
 
 	<header class="page-header">
-		<div class="top-container">
+		<div class="wide-container">
 			<a class="logo">
-				<img src="img/logo.png" alt="Логотип компании SCANDI" width="25" height="25">
+				<img src="img/logo.png" alt="Логотип компании SCANDI - картинка лампы" width="25" height="25">
 				SCANDI
 			</a>
 			<nav>
-				<ul class="head-nav-list">
-					<li class="head-nav-item"><a href="#about">О компании</a></li>
-					<li class="head-nav-item"><a href="#our-work">Портфолио</a></li>
-					<li class="head-nav-item"><a href="#team">Команда</a></li>
-					<li class="head-nav-item"><a href="#how-we-work">Как мы работаем</a></li>
-					<li class="head-nav-item"><a href="#reviews">Отзывы клиентов</a></li>
-					<li class="head-nav-item"><a href="#request-form">Оставить заявку</a></li>
+				<ul class="nav-list">
+					<li class="nav-item"><a href="#about">О компании</a></li>
+					<li class="nav-item"><a href="#works">Портфолио</a></li>
+					<li class="nav-item"><a href="#team">Команда</a></li>
+					<li class="nav-item"><a href="#process-list">Как мы работаем</a></li>
+					<li class="nav-item"><a href="#reviews">Отзывы клиентов</a></li>
+					<li class="nav-item"><a href="#form">Оставить заявку</a></li>
 				</ul>
 			</nav>
 			<a href="tel:+79818574624" class="phone">+7 (981) 857-46-24</a>
@@ -31,52 +31,65 @@
 	</header>
 
 	<main>
+
 		<section class="intro">
 			<div class="container">
 				<div class="intro-text">
-					<h1 class="intro-header">Поможем сделать
+					<h1 class="main-heading">Поможем сделать
 						вашу квартиру
 						уютнее</h1>
 					<p class="intro-description">Подбираем текстиль, мебель и аксессуары
 						под ваш интерьер, находим магазины
 						<br>и помогаем организовать доставку
 					</p>
-					<a href="#request-form" class="button request-button">Оставить заявку</a>
+					<a href="#form" class="button intro-button">Оставить заявку</a>
 				</div>
 			</div>
 		</section>
 
 		<section class="about" id="about">
 			<div class="container">
-				<h2 class="section-header">
-					О нас
-				</h2>
-
-				<p>Премиальный европейский текстиль — одно из самых главных направлений работы коллектива. Создавать
-					неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то, что
-					по-настоящему вдохновляет дизайнеров нашей студии.</p>
-
-				<p>Наш коллектив сделает все, чтобы после сотрудничества с нами, Вам было приятно сказать:
-					« Да! Это именно то, что действительно достойно моего дома!»</p>
-
-				<dl class="advantages">
-					<dt>5</dt>
-					<dd>лет опыта</dd>
-					<dt>100</dt>
-					<dd>проектов</dd>
-					<dt>10</dt>
-					<dd>наград</dd>
-				</dl>
+				<h2 class="section-heading">О нас</h2>
+				<div class="half-wrap">
+					<img src="img/about.jpg" alt="Белая ваза с цветами на столе" class="about-img" width="445" height="465">
+					<div class="about-description">
+						<p>Премиальный европейский текстиль — <br>
+							одно из самых главных направлений работы коллектива.
+							Создавать неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям —
+							<br>
+							вот то, что
+							по-настоящему вдохновляет дизайнеров нашей студии.
+						</p>
+						<p>Наш коллектив сделает все, чтобы после сотрудничества с нами, Вам было приятно сказать:
+							« Да! Это именно то, что действительно достойно моего дома!»</p>
+					</div>
+				</div>
 			</div>
 		</section>
 
-		<section class="our-work">
-			<h1>Наши работы</h1>
+		<section class="advantages">
+			<h2 class="visually-hidden">Наши преимущества</h2>
+			<div class="container">
+				<ul class="advantages-list">
+					<li class="advantages-item">
+						<p><span>5</span>лет опыта</p>
+					</li>
+					<li class="advantages-item">
+						<p><span>100</span>проектов</p>
+					</li>
+					<li class="advantages-item">
+						<p><span>10</span>наград</p>
+					</li>
+				</ul>
+			</div>
+		</section>
 
-			<div class="hover">
-				<h2>Квартира-студия
+		<section class="works" id="works">
+			<h2 class="section-heading">Наши работы</h2>
+			<div class="container">
+				<h3>Квартира-студия
 					30 кв.м.
-				</h2>
+				</h3>
 				<p>В квартире были светлые стены и тёплые цвета. Мы сконцентрировались
 					на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.</p>
 			</div>
@@ -92,7 +105,7 @@
 			</div>
 		</section>
 
-		<section class="team">
+		<section class="team" id="team">
 			<h1>Команда</h1>
 
 			<img src="img/team-1.jpg">
@@ -106,9 +119,7 @@
 				Она всегда находит общий язык
 				с клиентами и точно знает,
 				как обустроить дом так, чтобы вам понравилось.</p>
-		</section>
 
-		<section class="how-we-work">
 			<h1>Как мы работаем</h1>
 			<ol>
 				<li>1.Знакомимся, выезжаем
@@ -121,7 +132,8 @@
 					расставляем мебель и цветы, вешаем шторы, находим места для мелочей</li>
 			</ol>
 		</section>
-		<section class="reviews">
+
+		<section class="reviews" id="reviews">
 			<h1>Отзывы</h1>
 
 			<div class="left-slider">
@@ -147,10 +159,19 @@
 				<img src="img/review-right-arrow-for-slider.png">
 			</div>
 		</section>
+
+		<section class="form" id="form">
+
+		</section>
+
 	</main>
 
-	<footer>
-		Подвал сайта
+	<footer class="page-footer">
+		<div class="wide-container">
+			<a href="tel:+79818574624" class="phone">+7 (981) 857-46-24</a>
+			<p class="adress">г. Санкт-петербург, ул. Большая Конюшенная, 19</p>
+			<p class="copyright">ИП Королёва А.А.</p>
+		</div>
 	</footer>
 
 </body>

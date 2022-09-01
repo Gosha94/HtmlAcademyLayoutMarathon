@@ -21,6 +21,7 @@ body {
 
 .intro {
 	color: #533738;
+	background-image: url(../img/main.jpg);
 }
 
 .intro-header {
