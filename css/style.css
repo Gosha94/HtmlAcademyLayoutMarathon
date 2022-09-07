@@ -1,3 +1,5 @@
+
+/* Fonts */
 @font-face {
 	font-family: 'Montserrat';
 	src: url('../fonts/Montserrat-Medium.woff2') format('woff2');
@@ -14,13 +16,16 @@
 	font-display: swap;
 }
 
-body {	
-	font-family: "Montserrat", "Arial", sans-serif;
-	line-height: 25px;
-	/* background: #EFE6E4; */
-	background: #E5E5E5;
+/* Text Decoration */
+
+body {
+	font-family: "Montserrat", "Arial", sans-serif;	
+	background: #EFE6E4;
 	color: #533738;
+	font-style: normal;
+	font-weight: 400;
 	font-size: 18px;
+	line-height: 30px;
 }
 
 ul, ol {
@@ -32,22 +37,59 @@ a {
 	color: #533738;
 }
 
+.page-header {
+	font-size: 16px;
+	line-height: 20px;
+}
+
 .main-heading {
+	font-size: 50px;
+	line-height: 62px;
+	font-style: normal;
 	font-weight: 400;
-	font-size: 40px;
 }
 
 .section-heading {
+	font-size: 40px;
+	line-height: 50px;
 	font-weight: 400;
-	font-size: 30px;
 	text-transform: uppercase;
 }
 
+.works-heading {
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 37px;
+	text-align: center;
+}
+
 .button {
-	background: #CC8B86;	
+	background: #CC8B86;
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 24px;
 	padding: 20px 40px;
+	border: none;
 }
 
+.more {
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 37px;
+}
+
+.advantages {	
+	background-color: #8D7370;
+	color: #FFFFFF;
+}
+
+.form {
+
+}
+
+
+/* Flex and Grid */
+
+.visually-hidden {
+	display: none;
+}
